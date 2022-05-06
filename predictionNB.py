@@ -29,7 +29,7 @@ while(True):
     conn = pymysql.connect(
         db='Project',
         user='root',
-        passwd='147258369@',
+        passwd='',
         host='localhost')
     c = conn.cursor()
     # Getting distict IDs
